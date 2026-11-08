@@ -1,0 +1,129 @@
+{
+  "status": "Standard thread data: coarse pitches, tap drills and ISO 286 fits. Replace with your own standards.",
+  "spot_depth_mm": 2.0,
+  "blind_tip_allowance_xd": 0.3,
+  "through_breakthrough_mm": 1.5,
+  "peck_above_xd": 5.0,
+  "peck_q_mm": 5.0,
+  "r_plane_clearance_mm": 2.0,
+  "safe_clearance_above_stock_mm": 2.0,
+  "reach_clearance_mm": 3.5,
+  "reach_clearance_note": "depth + 3.5 mm reproduces the scenario's 'D9.8 drill needs a flute of at least 55 mm' (51.5 + 3.5); replace with the shop's rule",
+  "ream_band_max_mm": 0.05,
+  "ream_max_diameter_mm": 20.0,
+  "ream_allowance_mm": [
+    [
+      5.0,
+      0.1
+    ],
+    [
+      10.0,
+      0.2
+    ],
+    [
+      20.0,
+      0.3
+    ],
+    [
+      50.0,
+      0.5
+    ]
+  ],
+  "ream_allowance_note": "diameter stock left for the reamer, by hole diameter (up to and including); the pre-drill is rounded down to 0.1 mm",
+  "tap_through_extra_pitches": 3,
+  "face_mill_max_ap_mm": 2.0,
+  "face_mill_stepover_max_xd": 0.7,
+  "face_mill_approach_mm": 15.0,
+  "face_mill_plunge_feed_mm_min": 300,
+  "default_stock_allowance_mm": {
+    "+Z": 2.0
+  },
+  "default_stock_note": "used when the request gives no stock: a pre-sized blank with stock on the top face only",
+  "tap_drill_mm": {
+    "M3x0.5": 2.5,
+    "M4x0.7": 3.3,
+    "M5x0.8": 4.2,
+    "M6x1.0": 5.0,
+    "M8x1.25": 6.8,
+    "M10x1.5": 8.5,
+    "M12x1.75": 10.2,
+    "M14x2.0": 12.0,
+    "M16x2.0": 14.0,
+    "M20x2.5": 17.5,
+    "M24x3.0": 21.0
+  },
+  "tap_drill_note": "standard ISO metric coarse tap-drill sizes for 6H internal threads (ISO 2306 / DIN 336); other pitches use major - pitch rounded to 0.1 mm. Verify against the tap supplier.",
+  "it_grades_um": {
+    "ranges_mm": [
+      3,
+      6,
+      10,
+      18,
+      30,
+      50,
+      80,
+      120
+    ],
+    "IT6": [
+      6,
+      8,
+      9,
+      11,
+      13,
+      16,
+      19,
+      22
+    ],
+    "IT7": [
+      10,
+      12,
+      15,
+      18,
+      21,
+      25,
+      30,
+      35
+    ],
+    "IT8": [
+      14,
+      18,
+      22,
+      27,
+      33,
+      39,
+      46,
+      54
+    ],
+    "IT9": [
+      25,
+      30,
+      36,
+      43,
+      52,
+      62,
+      74,
+      87
+    ],
+    "IT10": [
+      40,
+      48,
+      58,
+      70,
+      84,
+      100,
+      120,
+      140
+    ],
+    "IT11": [
+      60,
+      75,
+      90,
+      110,
+      130,
+      160,
+      190,
+      220
+    ]
+  },
+  "it_grades_note": "ISO 286-1 standard tolerance grades, in micrometres, for diameters up to and including each range limit. Only H holes (lower deviation 0) are interpreted from a fit code."
+}

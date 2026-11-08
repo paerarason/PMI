@@ -1,0 +1,29 @@
+{
+  "sample": "ap242_mbd_tolerance_sample.step",
+  "features": [
+    {
+      "type": "plane",
+      "area": 300.0
+    },
+    {
+      "type": "plane",
+      "area": 300.0
+    },
+    {
+      "type": "plane",
+      "area": 400.0
+    },
+    {
+      "type": "plane",
+      "area": 400.0
+    },
+    {
+      "type": "plane",
+      "area": 1200.0
+    },
+    {
+      "type": "plane",
+      "area": 1200.0
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "status": "Ground truth written by hand from each builder's geometry, before running the recognizer. Synthetic and written by us: not an independent benchmark (RISKS R14).",
+  "parts": {
+    "i01_hole_through_pocket_floor": {
+      "note": "hole drilled from the pocket floor",
+      "features": [
+        {
+          "type": "pocket",
+          "mf_class": "closed_pocket"
+        },
+        {
+          "type": "hole",
+          "diameter": 8.0,
+          "through": true,
+          "access_dir": "+Z",
+          "depth": 20.0
+        }
+      ]
+    },
+    "i02_hole_breaks_into_chamfer": {
+      "note": "hole entry runs into a chamfer",
+      "features": [
+        {
+          "type": "chamfer"
+        },
+        {
+          "type": "hole",
+          "diameter": 6.0,
+          "through": false,
+          "access_dir": "+Z",
+          "depth": 15.0
+        }
+      ]
+    },
+    "i03_tapped_hole_near_edge": {
+      "note": "M8 tap drill with a 1.6 mm wall to the edge",
+      "features": [
+        {
+          "type": "hole",
+          "diameter": 6.8,
+          "through": false,
+          "access_dir": "+Z",
+          "depth": 15.0
+        }
+      ]
+    },
+    "i04_cross_drilled_holes": {
+      "note": "two through holes that intersect",
+      "features": [
+        {
+          "type": "hole",
+          "diameter": 8.0,
+          "through": true,
+          "access_dir": "\u00b1X"
+        },
+        {
+          "type": "hole",
+          "diameter": 6.0,
+          "through": true,
+          "access_dir": "\u00b1Z"
+        }
+      ]
+    },
+    "i05_hole_in_slot_floor": {
+      "note": "hole drilled from a slot floor",
+      "features": [
+        {
+          "type": "slot"
+        },
+        {
+          "type": "hole",
+          "diameter": 5.0,
+          "through": true,
+          "access_dir": "+Z",
+          "depth": 22.0
+        }
+      ]
+    },
+    "i06_counterbore_in_pocket": {
+      "note": "M6 counterbore in a pocket floor",
+      "features": [
+        {
+          "type": "pocket",
+          "mf_class": "closed_pocket"
+        },
+        {
+          "type": "hole",
+          "diameter": 6.6,
+          "through": true,
+          "access_dir": "+Z",
+          "counterbored": true
+        }
+      ]
+    },
+    "i07_hole_on_step_floor": {
+      "note": "hole on the lower face of a step",
+      "features": [
+        {
+          "type": "step"
+        },
+        {
+          "type": "hole",
+          "diameter": 6.0,
+          "through": false,
+          "access_dir": "+Z",
+          "depth": 8.0
+        }
+      ]
+    },
+    "i08_side_hole_into_pocket": {
+      "note": "side hole breaking into a pocket",
+      "features": [
+        {
+          "type": "pocket",
+          "mf_class": "closed_pocket"
+        },
+        {
+          "type": "hole",
+          "diameter": 6.0,
+          "through": true,
+          "access_dir": "-Y",
+          "depth": 15.0
+        }
+      ]
+    },
+    "i09_hole_through_boss": {
+      "note": "hole through a cylindrical boss",
+      "features": [
+        {
+          "type": "shaft"
+        },
+        {
+          "type": "hole",
+          "diameter": 8.0,
+          "through": true,
+          "access_dir": "\u00b1Z",
+          "depth": 25.0
+        }
+      ]
+    },
+    "i10_opposed_holes_meet": {
+      "note": "two coaxial blind holes from opposite sides meet",
+      "features": [
+        {
+          "type": "hole",
+          "diameter": 6.0,
+          "through": true,
+          "access_dir": "\u00b1Z",
+          "counterbored": true
+        }
+      ]
+    },
+    "i11_hole_breaks_into_pocket_wall": {
+      "note": "hole overlapping a pocket wall",
+      "features": [
+        {
+          "type": "pocket",
+          "mf_class": "closed_pocket"
+        },
+        {
+          "type": "hole",
+          "diameter": 12.0,
+          "through": false,
+          "access_dir": "+Z",
+          "depth": 20.0
+        }
+      ]
+    },
+    "i12_hole_on_inclined_face": {
+      "note": "hole normal to a 30\u00b0 inclined face",
+      "features": [
+        {
+          "type": "hole",
+          "diameter": 6.0,
+          "through": false,
+          "access_dir": "oblique",
+          "depth": 10.0
+        }
+      ]
+    }
+  }
+}

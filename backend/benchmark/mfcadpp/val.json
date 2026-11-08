@@ -1,0 +1,492 @@
+{
+ "parts": 8950,
+ "errors": 0,
+ "faces": 269407,
+ "process_accuracy": 0.9551,
+ "process_proven": 0.9544,
+ "exact_accuracy": 0.8858,
+ "exact_proven": 0.8848,
+ "parts_all_faces_right": 5827,
+ "process_classes": {
+  "pocket": {
+   "faces": 68915,
+   "recall": 0.9739,
+   "precision": 0.9668,
+   "confused_with": {
+    "pocket": 67115,
+    "slot": 768,
+    "step": 503,
+    "stock": 258
+   }
+  },
+  "stock": {
+   "faces": 60177,
+   "recall": 0.9977,
+   "precision": 0.959,
+   "confused_with": {
+    "stock": 60038,
+    "chamfer": 131,
+    "step": 3,
+    "boss": 3
+   }
+  },
+  "passage": {
+   "faces": 48959,
+   "recall": 0.9541,
+   "precision": 0.9684,
+   "confused_with": {
+    "passage": 46713,
+    "step": 617,
+    "pocket": 542,
+    "slot": 540
+   }
+  },
+  "step": {
+   "faces": 48522,
+   "recall": 0.961,
+   "precision": 0.9548,
+   "confused_with": {
+    "step": 46629,
+    "slot": 780,
+    "stock": 488,
+    "pocket": 323
+   }
+  },
+  "slot": {
+   "faces": 17082,
+   "recall": 0.806,
+   "precision": 0.857,
+   "confused_with": {
+    "slot": 13768,
+    "passage": 1050,
+    "pocket": 980,
+    "stock": 766
+   }
+  },
+  "hole": {
+   "faces": 10695,
+   "recall": 0.9648,
+   "precision": 0.9629,
+   "confused_with": {
+    "hole": 10319,
+    "slot": 192,
+    "step": 103,
+    "stock": 44
+   }
+  },
+  "groove": {
+   "faces": 10133,
+   "recall": 0.9252,
+   "precision": 1.0,
+   "confused_with": {
+    "groove": 9375,
+    "hole": 350,
+    "step": 171,
+    "stock": 93
+   }
+  },
+  "chamfer": {
+   "faces": 3759,
+   "recall": 0.6252,
+   "precision": 0.9025,
+   "confused_with": {
+    "chamfer": 2350,
+    "stock": 443,
+    "step": 328,
+    "pocket": 326
+   }
+  },
+  "round": {
+   "faces": 1165,
+   "recall": 0.8609,
+   "precision": 0.911,
+   "confused_with": {
+    "round": 1003,
+    "pocket": 87,
+    "step": 37,
+    "stock": 26
+   }
+  }
+ },
+ "exact_classes": {
+  "stock": {
+   "faces": 60177,
+   "recall": 0.9977,
+   "precision": 0.959,
+   "confused_with": {
+    "stock": 60038,
+    "chamfer": 131,
+    "other:boss": 3,
+    "slanted_through_step": 2
+   }
+  },
+  "6sides_pocket": {
+   "faces": 23250,
+   "recall": 0.9133,
+   "precision": 0.996,
+   "confused_with": {
+    "6sides_pocket": 21235,
+    "rectangular_pocket": 1727,
+    "triangular_pocket": 200,
+    "2sides_through_step": 29
+   }
+  },
+  "6sides_passage": {
+   "faces": 22642,
+   "recall": 0.9002,
+   "precision": 0.9955,
+   "confused_with": {
+    "6sides_passage": 20382,
+    "rectangular_passage": 1251,
+    "rectangular_pocket": 463,
+    "stock": 206
+   }
+  },
+  "rectangular_pocket": {
+   "faces": 16945,
+   "recall": 0.9492,
+   "precision": 0.7848,
+   "confused_with": {
+    "rectangular_pocket": 16085,
+    "rectangular_blind_slot": 447,
+    "rectangular_blind_step": 290,
+    "rectangular_passage": 32
+   }
+  },
+  "circular_end_pocket": {
+   "faces": 15815,
+   "recall": 0.9375,
+   "precision": 0.9812,
+   "confused_with": {
+    "circular_end_pocket": 14826,
+    "stock": 211,
+    "rectangular_pocket": 189,
+    "rectangular_passage": 141
+   }
+  },
+  "rectangular_passage": {
+   "faces": 15176,
+   "recall": 0.9314,
+   "precision": 0.8403,
+   "confused_with": {
+    "rectangular_passage": 14135,
+    "rectangular_through_slot": 499,
+    "stock": 240,
+    "triangular_passage": 140
+   }
+  },
+  "triangular_pocket": {
+   "faces": 12905,
+   "recall": 0.9251,
+   "precision": 0.9558,
+   "confused_with": {
+    "triangular_pocket": 11939,
+    "rectangular_pocket": 890,
+    "rectangular_blind_step": 33,
+    "2sides_through_step": 18
+   }
+  },
+  "triangular_passage": {
+   "faces": 11141,
+   "recall": 0.9254,
+   "precision": 0.9424,
+   "confused_with": {
+    "triangular_passage": 10310,
+    "rectangular_passage": 380,
+    "2sides_through_step": 183,
+    "rectangular_through_step": 102
+   }
+  },
+  "2sides_through_step": {
+   "faces": 10291,
+   "recall": 0.8602,
+   "precision": 0.8485,
+   "confused_with": {
+    "2sides_through_step": 8852,
+    "rectangular_blind_step": 759,
+    "rectangular_through_step": 183,
+    "slanted_through_step": 136
+   }
+  },
+  "rectangular_blind_step": {
+   "faces": 10239,
+   "recall": 0.9181,
+   "precision": 0.8625,
+   "confused_with": {
+    "rectangular_blind_step": 9400,
+    "rectangular_blind_slot": 536,
+    "rectangular_through_step": 80,
+    "rectangular_through_slot": 74
+   }
+  },
+  "Oring": {
+   "faces": 10133,
+   "recall": 0.9252,
+   "precision": 1.0,
+   "confused_with": {
+    "Oring": 9375,
+    "blind_hole": 327,
+    "circular_blind_step": 171,
+    "stock": 93
+   }
+  },
+  "rectangular_through_step": {
+   "faces": 7173,
+   "recall": 0.7518,
+   "precision": 0.3607,
+   "confused_with": {
+    "rectangular_through_step": 5393,
+    "slanted_through_step": 1397,
+    "rectangular_blind_step": 145,
+    "stock": 86
+   }
+  },
+  "slanted_through_step": {
+   "faces": 7088,
+   "recall": 0.3887,
+   "precision": 0.4959,
+   "confused_with": {
+    "rectangular_through_step": 3461,
+    "slanted_through_step": 2755,
+    "2sides_through_step": 566,
+    "rectangular_blind_step": 110
+   }
+  },
+  "triangular_blind_step": {
+   "faces": 6973,
+   "recall": 0.0739,
+   "precision": 0.981,
+   "confused_with": {
+    "rectangular_through_step": 5029,
+    "slanted_through_step": 940,
+    "triangular_blind_step": 515,
+    "2sides_through_step": 323
+   }
+  },
+  "blind_hole": {
+   "faces": 6856,
+   "recall": 0.9733,
+   "precision": 0.9464,
+   "confused_with": {
+    "blind_hole": 6673,
+    "circular_blind_step": 97,
+    "through_hole": 29,
+    "stock": 26
+   }
+  },
+  "circular_blind_step": {
+   "faces": 6758,
+   "recall": 0.901,
+   "precision": 0.9402,
+   "confused_with": {
+    "circular_blind_step": 6089,
+    "rectangular_through_step": 342,
+    "stock": 194,
+    "slanted_through_step": 67
+   }
+  },
+  "rectangular_through_slot": {
+   "faces": 4331,
+   "recall": 0.8254,
+   "precision": 0.8149,
+   "confused_with": {
+    "rectangular_through_slot": 3575,
+    "rectangular_passage": 505,
+    "triangular_passage": 85,
+    "rectangular_through_step": 43
+   }
+  },
+  "through_hole": {
+   "faces": 3839,
+   "recall": 0.931,
+   "precision": 0.9749,
+   "confused_with": {
+    "through_hole": 3574,
+    "circular_through_slot": 189,
+    "blind_hole": 43,
+    "stock": 18
+   }
+  },
+  "chamfer": {
+   "faces": 3759,
+   "recall": 0.6252,
+   "precision": 0.9025,
+   "confused_with": {
+    "chamfer": 2350,
+    "stock": 443,
+    "rectangular_pocket": 308,
+    "2sides_through_step": 181
+   }
+  },
+  "rectangular_blind_slot": {
+   "faces": 3402,
+   "recall": 0.8539,
+   "precision": 0.7405,
+   "confused_with": {
+    "rectangular_blind_slot": 2905,
+    "rectangular_pocket": 458,
+    "rectangular_through_slot": 18,
+    "other:boss": 8
+   }
+  },
+  "v_circular_end_blind_slot": {
+   "faces": 2945,
+   "recall": 0.8027,
+   "precision": 0.974,
+   "confused_with": {
+    "v_circular_end_blind_slot": 2364,
+    "circular_end_pocket": 266,
+    "triangular_pocket": 151,
+    "stock": 60
+   }
+  },
+  "triangular_through_slot": {
+   "faces": 2559,
+   "recall": 0.5268,
+   "precision": 0.9726,
+   "confused_with": {
+    "triangular_through_slot": 1348,
+    "stock": 543,
+    "triangular_passage": 304,
+    "slanted_through_step": 139
+   }
+  },
+  "h_circular_end_blind_slot": {
+   "faces": 2457,
+   "recall": 0.9202,
+   "precision": 0.9667,
+   "confused_with": {
+    "h_circular_end_blind_slot": 2261,
+    "rectangular_pocket": 76,
+    "rectangular_through_step": 35,
+    "round": 26
+   }
+  },
+  "circular_through_slot": {
+   "faces": 1388,
+   "recall": 0.9135,
+   "precision": 0.7905,
+   "confused_with": {
+    "circular_through_slot": 1268,
+    "stock": 114,
+    "rectangular_through_step": 2,
+    "circular_blind_step": 2
+   }
+  },
+  "round": {
+   "faces": 1165,
+   "recall": 0.8609,
+   "precision": 0.911,
+   "confused_with": {
+    "round": 1003,
+    "rectangular_pocket": 37,
+    "6sides_pocket": 35,
+    "stock": 26
+   }
+  }
+ },
+ "worst_parts": [
+  {
+   "file": "23138.step",
+   "process_accuracy": 0.0
+  },
+  {
+   "file": "21805.step",
+   "process_accuracy": 0.171
+  },
+  {
+   "file": "41518.step",
+   "process_accuracy": 0.333
+  },
+  {
+   "file": "54347.step",
+   "process_accuracy": 0.371
+  },
+  {
+   "file": "8611.step",
+   "process_accuracy": 0.415
+  },
+  {
+   "file": "59564.step",
+   "process_accuracy": 0.417
+  },
+  {
+   "file": "23811.step",
+   "process_accuracy": 0.419
+  },
+  {
+   "file": "22095.step",
+   "process_accuracy": 0.419
+  },
+  {
+   "file": "56882.step",
+   "process_accuracy": 0.421
+  },
+  {
+   "file": "3388.step",
+   "process_accuracy": 0.426
+  },
+  {
+   "file": "10352.step",
+   "process_accuracy": 0.433
+  },
+  {
+   "file": "29603.step",
+   "process_accuracy": 0.469
+  },
+  {
+   "file": "40074.step",
+   "process_accuracy": 0.476
+  },
+  {
+   "file": "20864.step",
+   "process_accuracy": 0.478
+  },
+  {
+   "file": "47111.step",
+   "process_accuracy": 0.484
+  },
+  {
+   "file": "2552.step",
+   "process_accuracy": 0.5
+  },
+  {
+   "file": "34752.step",
+   "process_accuracy": 0.5
+  },
+  {
+   "file": "42459.step",
+   "process_accuracy": 0.51
+  },
+  {
+   "file": "12808.step",
+   "process_accuracy": 0.516
+  },
+  {
+   "file": "44165.step",
+   "process_accuracy": 0.523
+  },
+  {
+   "file": "32893.step",
+   "process_accuracy": 0.526
+  },
+  {
+   "file": "9405.step",
+   "process_accuracy": 0.533
+  },
+  {
+   "file": "55801.step",
+   "process_accuracy": 0.536
+  },
+  {
+   "file": "51027.step",
+   "process_accuracy": 0.541
+  },
+  {
+   "file": "11688.step",
+   "process_accuracy": 0.543
+  }
+ ],
+ "error_samples": [],
+ "seconds": 229.5
+}

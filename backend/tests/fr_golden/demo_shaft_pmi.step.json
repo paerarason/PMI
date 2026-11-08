@@ -1,0 +1,34 @@
+{
+  "sample": "demo_shaft_pmi.step",
+  "features": [
+    {
+      "type": "hole",
+      "diameter": 8.0,
+      "depth": 30.007,
+      "through": true,
+      "counterbored": false,
+      "countersunk": false
+    },
+    {
+      "type": "plane",
+      "area": 706.8583
+    },
+    {
+      "type": "plane",
+      "area": 392.6991
+    },
+    {
+      "type": "plane",
+      "area": 392.6991
+    },
+    {
+      "type": "plane",
+      "area": 706.8583
+    },
+    {
+      "type": "shaft",
+      "diameter": 20.0,
+      "length": 100.0
+    }
+  ]
+}

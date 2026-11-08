@@ -1,0 +1,47 @@
+{
+  "sample": "demo_pocket_features.step",
+  "features": [
+    {
+      "type": "plane",
+      "area": 2000.0
+    },
+    {
+      "type": "plane",
+      "area": 2500.0
+    },
+    {
+      "type": "plane",
+      "area": 5584.0
+    },
+    {
+      "type": "plane",
+      "area": 2170.0
+    },
+    {
+      "type": "plane",
+      "area": 8000.0
+    },
+    {
+      "type": "plane",
+      "area": 1580.0
+    },
+    {
+      "type": "pocket",
+      "depth": 10.0,
+      "width": 30.0,
+      "length": 40.0
+    },
+    {
+      "type": "slot",
+      "depth": 8.0,
+      "width": 12.0,
+      "length": 50.0
+    },
+    {
+      "type": "step",
+      "depth": 15.0,
+      "width": 22.0,
+      "length": 28.0
+    }
+  ]
+}

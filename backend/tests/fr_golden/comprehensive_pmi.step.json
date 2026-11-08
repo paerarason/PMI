@@ -1,0 +1,78 @@
+{
+  "sample": "comprehensive_pmi.step",
+  "features": [
+    {
+      "type": "hole",
+      "diameter": 20.0,
+      "depth": 20.0,
+      "through": true,
+      "counterbored": false,
+      "countersunk": false
+    },
+    {
+      "type": "hole",
+      "diameter": 12.0,
+      "depth": 20.0,
+      "through": true,
+      "counterbored": true,
+      "countersunk": false
+    },
+    {
+      "type": "plane",
+      "area": 1792.2743
+    },
+    {
+      "type": "plane",
+      "area": 1920.0
+    },
+    {
+      "type": "plane",
+      "area": 11772.7434
+    },
+    {
+      "type": "plane",
+      "area": 9100.0001
+    },
+    {
+      "type": "plane",
+      "area": 2700.0
+    },
+    {
+      "type": "plane",
+      "area": 900.0
+    },
+    {
+      "type": "plane",
+      "area": 339.292
+    },
+    {
+      "type": "plane",
+      "area": 452.3893
+    },
+    {
+      "type": "round",
+      "radius": 6.0
+    },
+    {
+      "type": "spherical_boss",
+      "diameter": 16.0
+    },
+    {
+      "type": "shaft",
+      "diameter": 24.0,
+      "length": 30.0
+    },
+    {
+      "type": "step",
+      "depth": 10.0,
+      "width": 10.0,
+      "length": 90.0
+    },
+    {
+      "type": "pocket",
+      "depth": 20.0,
+      "width": 20.0,
+      "length": 20.0
+    }
+  ]
+}

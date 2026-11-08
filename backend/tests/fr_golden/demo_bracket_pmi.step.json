@@ -1,0 +1,45 @@
+{
+  "sample": "demo_bracket_pmi.step",
+  "features": [
+    {
+      "type": "hole",
+      "diameter": 16.0,
+      "depth": 20.0,
+      "through": true,
+      "counterbored": false,
+      "countersunk": false
+    },
+    {
+      "type": "hole",
+      "diameter": 10.0,
+      "depth": 20.0,
+      "through": true,
+      "counterbored": false,
+      "countersunk": false
+    },
+    {
+      "type": "plane",
+      "area": 1200.0
+    },
+    {
+      "type": "plane",
+      "area": 2000.0
+    },
+    {
+      "type": "plane",
+      "area": 5720.3983
+    },
+    {
+      "type": "plane",
+      "area": 2000.0
+    },
+    {
+      "type": "plane",
+      "area": 5720.3983
+    },
+    {
+      "type": "plane",
+      "area": 1200.0
+    }
+  ]
+}
